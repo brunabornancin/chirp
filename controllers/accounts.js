@@ -7,5 +7,5 @@ exports.signupForm = function(req, res) {
 exports.create = function(req,res) {
     console.log(req.body)
 
-    res.send(req,body)
+    res.redirect('/')
 }
